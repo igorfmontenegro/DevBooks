@@ -11,7 +11,7 @@ function App() {
       <GlobalStyles />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Search />} />
+          <Route path="/DevBooks" element={<Search />} />
           <Route path="/books" element={<Books />} />
           <Route path="/books/:bookId" element={<BookDetail />} />
         </Routes>
