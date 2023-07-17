@@ -12,6 +12,12 @@ export const Container = styled.div`
     margin-bottom: 24px;
     color: #222;
   }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 22px;
+    }
+  }
 `
 
 export const Logo = styled.img`
@@ -52,4 +58,10 @@ export const BaseBoard = styled.div`
   height: 3vh;
   background-color: #ef552b;
   color: #fff;
+
+  @media (max-width: 768px) {
+    p {
+      font-size: 14px;
+    }
+  }
 `

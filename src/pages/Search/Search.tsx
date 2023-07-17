@@ -35,7 +35,9 @@ export function Search() {
         </SearchContainer>
       </Container>
 
-      <BaseBoard> Devbooks ® Igor Montenegro </BaseBoard>
+      <BaseBoard>
+        <p> Devbooks ® Igor Montenegro </p>
+      </BaseBoard>
     </>
   )
 }

@@ -11,6 +11,14 @@ export const Container = styled.h1`
   font-size: 26px;
   background-color: #ef552b;
   color: #fff;
+
+  @media (max-width: 587px) {
+    font-size: 20px;
+  }
+
+  @media (max-width: 400px) {
+    font-size: 16px;
+  }
 `
 
 export const Logo = styled.img`
@@ -20,5 +28,11 @@ export const Logo = styled.img`
   left: 20px;
   &:hover {
     transform: scale(1.1);
+  }
+
+  @media (max-width: 587px) {
+    width: 40px;
+    height: 40px;
+    left: 10px;
   }
 `
